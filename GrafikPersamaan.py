@@ -1,5 +1,5 @@
-*** Install terlebih dahulu library melalui terminal dengan perintah 'pip install numpy pandas openpyxl plotly scikit-learn tensorflow'
-gunakan versi python 3.8***
+#Install terlebih dahulu library melalui terminal dengan perintah 'pip install numpy pandas openpyxl plotly scikit-learn tensorflow'
+#gunakan versi python 3.8
 import numpy as np
 import pandas as pd
 import plotly.express as px
