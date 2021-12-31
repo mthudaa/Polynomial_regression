@@ -22,7 +22,7 @@ kolom_x = 'x' #ganti dengan nama kolom data x
 kolom_y = 'y' #ganti dengan nama kolom data y
 
 df = pd.read_excel(directory)
-X = df.HB.values.reshape(-1, 1)
+X = df.abc.values.reshape(-1, 1) #ganti abc dengan nama kolom data x (tanpa tanda petik)
 x_range = np.linspace(X.min(), X.max(), 100).reshape(-1, 1)
 
 fig = px.scatter(df, x=str(kolom_x), y=str(kolom_y), opacity=0.65)
